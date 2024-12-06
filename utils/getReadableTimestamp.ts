@@ -1,3 +1,3 @@
 export default function getReadableTimestamp (timestamp: number): string {
-  return timestamp.toString()
+  return new Date(timestamp).toUTCString()
 }
