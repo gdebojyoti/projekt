@@ -3,16 +3,12 @@
 import { useState } from 'react'
 
 import getReadableTimestamp from '@/utils/getReadableTimestamp'
+import PublisherTag from '@/types/publisherTag'
 
-const Goodreads = ({ data }: { data: { lastUpdatedOn: number } }) => {
-  const [selectedTags, setSelectedTags]: [string[], any] = useState([])
+const Goodreads = ({ data, publisherTags }: { data: { lastUpdatedOn: number }, publisherTags: PublisherTag[] }) => {
+  const [selectedTags, setSelectedTags] = useState<string[]>([])
 
   console.log(data, selectedTags, new Date(data.lastUpdatedOn))
-
-  const publisherTags = [
-    { key: "Marvel", label: "Marvel" },
-    { key: "DC", label: "DC" }
-  ]
 
   const onToggleTag = (key: string) => {
     const newTags: string[] = [...selectedTags]
@@ -36,7 +32,7 @@ const Goodreads = ({ data }: { data: { lastUpdatedOn: number } }) => {
   )
 }
 
-const FilterBar = ({ tags, toggleTag }: { tags: { key: string, label: string }[], toggleTag: any }) => {
+const FilterBar = ({ tags, toggleTag }: { tags: { key: string, label: string }[], toggleTag: (key: string) => void }) => {
   return (
     <div>
       <h2>Filters</h2>
