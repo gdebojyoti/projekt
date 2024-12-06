@@ -14,7 +14,7 @@ const GoodreadsPage = () => {
 
   return (
     <div>
-      <h1>Top 100 books!!</h1>
+      <h1>Top 100 books!</h1>
 
       <TestComponent />
       <Goodreads publisherTags={publisherTags} data={books} />
