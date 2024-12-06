@@ -2,8 +2,8 @@ type Book = {
   key: string
   url: string
   title: string
-  rating: string | null
-  totalRatings: string | null
+  rating: number
+  totalRatings: number
   publisher: string
 }
 
