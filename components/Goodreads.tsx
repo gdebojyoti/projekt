@@ -9,19 +9,21 @@ import Book from '@/types/book'
 
 const Goodreads = ({ data, publisherTags }: { data: { lastUpdatedOn: number, list: Book[] }, publisherTags: PublisherTag[] }) => {
   const [selectedTags, setSelectedTags] = useState<string[]>([])
-  const [filteredBooks, setFilteredBooks] = useState(data.list)
+  const [filteredBooks, setFilteredBooks] = useState(firstTimeData(data.list))
 
-  console.log(data, selectedTags, new Date(data.lastUpdatedOn))
-
+  // filter books to be displayed
   useEffect(() => {
-    // if no filters are selected, show all books
-    if (!selectedTags.length) {
-      setFilteredBooks(data.list)
-      return
+    let filteredBooks = data.list
+
+    // if any filter is selected, show books accordingly
+    if (selectedTags.length) {
+      filteredBooks = data.list.filter(({ publisher }) => (selectedTags.includes(publisher)))
     }
 
-    // else show books corresponding to the selected filters
-    setFilteredBooks(data.list.filter(({ publisher }) => (selectedTags.includes(publisher))))
+    // sort books from highest rated to lowest
+    filteredBooks = filteredBooks.sort((a, b) => (b.rating - a.rating))
+    
+    setFilteredBooks(filteredBooks)
   }, [selectedTags])
 
   const onToggleTag = (key: string) => {
@@ -56,6 +58,10 @@ const FilterBar = ({ isAnySelected, tags, toggleTag }: { isAnySelected: boolean,
       ))}
     </div>
   )
+}
+
+function firstTimeData (data: Book[]) {
+  return data.sort((a, b) => (b.rating - a.rating))
 }
 
 export default Goodreads
