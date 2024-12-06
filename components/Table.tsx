@@ -14,7 +14,7 @@ const BookTable = ({ data }: { data: Book[] }) => {
       </thead>
 
       <tbody>
-        {data.map(({ key, title, thumbnailUrl, rating }, index) => (
+        {data.map(({ key, title, rating }, index) => (
           <tr key={key}>
             <td className="text-center">{index + 1}</td>
             <td className="text-center">{rating}</td>

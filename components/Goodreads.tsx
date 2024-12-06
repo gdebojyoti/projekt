@@ -24,7 +24,7 @@ const Goodreads = ({ data, publisherTags }: { data: { lastUpdatedOn: number, lis
     filteredBooks = filteredBooks.sort((a, b) => (b.rating - a.rating))
     
     setFilteredBooks(filteredBooks)
-  }, [selectedTags])
+  }, [selectedTags, data.list])
 
   const onToggleTag = (key: string) => {
     const newTags: string[] = [...selectedTags]
