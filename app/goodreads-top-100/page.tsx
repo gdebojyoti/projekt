@@ -5,8 +5,6 @@ import Goodreads from '@/components/Goodreads'
 import TestComponent from '@/components/TestComponent'
 
 const GoodreadsPage = () => {
-  console.log(books)
-
   const publisherTags = [
     { key: "Marvel", label: "Marvel" },
     { key: "DC", label: "DC" }
