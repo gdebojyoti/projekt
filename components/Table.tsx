@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 import Book from "@/types/book"
 
 const BookTable = ({ data }: { data: Book[] }) => {
@@ -17,10 +19,11 @@ const BookTable = ({ data }: { data: Book[] }) => {
             <td className="text-center">{index + 1}</td>
             <td className="text-center">{rating}</td>
             <td className="flex items-center">
-              <img
+              {/* <img
                 className="w-[50px] h-[75px] object-cover"
                 src={thumbnailUrl}
-              />
+              /> */}
+              <Image src='/images/thumbnail.jpg' alt='fallback logo' width={50} height={75} />
               <span className="ml-4">{title}</span>
             </td>
           </tr>
