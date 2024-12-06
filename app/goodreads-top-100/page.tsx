@@ -1,13 +1,14 @@
 import { Metadata } from 'next'
 
-import books from '@/data/books.json'
 import Goodreads from '@/components/Goodreads'
 import TestComponent from '@/components/TestComponent'
+import getBooks from '@/utils/getBooks'
 
 const GoodreadsPage = () => {
   const publisherTags = [
     { key: "Marvel", label: "Marvel" },
-    { key: "DC", label: "DC" }
+    { key: "DC", label: "DC" },
+    { key: "<TBD>", label: "Untagged" }
   ]
 
   return (
@@ -15,7 +16,7 @@ const GoodreadsPage = () => {
       <h1>Top 100 books!</h1>
 
       <TestComponent />
-      <Goodreads publisherTags={publisherTags} data={books} />
+      <Goodreads publisherTags={publisherTags} data={getBooks()} />
     </div>
   )
 }

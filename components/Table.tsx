@@ -14,7 +14,7 @@ const BookTable = ({ data }: { data: Book[] }) => {
       </thead>
 
       <tbody>
-        {data.map(({ key, title, rating }, index) => (
+        {data.map(({ key, title, rating, url }, index) => (
           <tr key={key}>
             <td className="text-center">{index + 1}</td>
             <td className="text-center">{rating}</td>
@@ -24,7 +24,7 @@ const BookTable = ({ data }: { data: Book[] }) => {
                 src={thumbnailUrl}
               /> */}
               <Image src='/images/thumbnail.jpg' alt='fallback logo' width={50} height={75} />
-              <span className="ml-4">{title}</span>
+              <a className="ml-4" href={url}>{title}</a>
             </td>
           </tr>
         ))}
