@@ -6,10 +6,12 @@ import getReadableTimestamp from '@/utils/getReadableTimestamp'
 import PublisherTag from '@/types/publisherTag'
 import BookTable from './Table'
 import Book from '@/types/book'
+import SearchBar from './SearchBar'
 
 const Goodreads = ({ data, publisherTags }: { data: { lastUpdatedOn: number, list: Book[] }, publisherTags: PublisherTag[] }) => {
   const [selectedTags, setSelectedTags] = useState<string[]>([])
   const [filteredBooks, setFilteredBooks] = useState(firstTimeData(data.list))
+  const [searchText, setSearchText] = useState('')
 
   // filter books to be displayed
   useEffect(() => {
@@ -22,9 +24,15 @@ const Goodreads = ({ data, publisherTags }: { data: { lastUpdatedOn: number, lis
 
     // sort books from highest rated to lowest
     filteredBooks = filteredBooks.sort((a, b) => (b.rating - a.rating))
-    
+
+    // if user has entered search string, show only those books which match it
+    const formattedSearchText = searchText.trim().toLowerCase()
+    if (formattedSearchText) {
+      filteredBooks = filteredBooks.filter(({ title }) => (title.toLowerCase().includes(formattedSearchText)))
+    }
+
     setFilteredBooks(filteredBooks)
-  }, [selectedTags, data.list])
+  }, [data.list, selectedTags, searchText])
 
   const onToggleTag = (key: string) => {
     const newTags: string[] = [...selectedTags]
@@ -42,6 +50,7 @@ const Goodreads = ({ data, publisherTags }: { data: { lastUpdatedOn: number, lis
   return (
     <div>
       <FilterBar isAnySelected={!!selectedTags.length} tags={publisherTags} toggleTag={onToggleTag} />
+      <SearchBar value={searchText} onChange={setSearchText} />
       <BookTable data={filteredBooks} />
 
       <p>This list was last updated on: {getReadableTimestamp(data.lastUpdatedOn)}</p>
