@@ -7,7 +7,7 @@ const BookTable = ({ data }: { data: Book[] }) => {
     <table className="border-spacing-y-2 border-separate">
       <thead>
         <tr>
-          <td className="w-10 text-center">#</td>
+          <td className="w-16 text-center">Serial #</td>
           <td className="w-20 text-center">Rating</td>
           <td>Title</td>
         </tr>
