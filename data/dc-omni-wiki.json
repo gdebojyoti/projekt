@@ -1,5 +1,5 @@
 {
-  "lastUpdatedOn": 1735427050773,
+  "lastUpdatedOn": 1735461938736,
   "list": [
     {
       "key": "17137604",
@@ -1574,6 +1574,150 @@
       "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1363659622i/15798397._SX50_.jpg",
       "rating": 4.44,
       "totalRatings": 620,
+      "publisher": "DC"
+    },
+    {
+      "key": "37489721",
+      "url": "https://www.goodreads.com/book/show/37489721-batman-by-grant-morrison-omnibus?from_search=true&from_srp=true&qid=JYxC1eOWj9&rank=1",
+      "title": "Batman by Grant Morrison Omnibus: Volume One",
+      "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1623686783i/37489721._SX50_.jpg",
+      "rating": 4.28,
+      "totalRatings": 1261,
+      "publisher": "DC"
+    },
+    {
+      "key": "42373447",
+      "url": "https://www.goodreads.com/book/show/42373447-batman-by-grant-morrison-omnibus?from_search=true&from_srp=true&qid=9pOosDw3GT&rank=1",
+      "title": "Batman by Grant Morrison Omnibus: Volume Two",
+      "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617421311i/42373447._SX50_.jpg",
+      "rating": 4.25,
+      "totalRatings": 775,
+      "publisher": "DC"
+    },
+    {
+      "key": "49011500",
+      "url": "https://www.goodreads.com/book/show/49011500-batman-by-grant-morrison-omnibus?from_search=true&from_srp=true&qid=kmZUUEJC6H&rank=1",
+      "title": "Batman by Grant Morrison Omnibus: Volume Three",
+      "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617421432i/49011500._SX50_.jpg",
+      "rating": 4.12,
+      "totalRatings": 512,
+      "publisher": "DC"
+    },
+    {
+      "key": "34690771",
+      "url": "https://www.goodreads.com/book/show/34690771-harley-quinn-by-amanda-conner-and-jimmy-palmiotti-omnibus-volume-1?from_search=true&from_srp=true&qid=3a7PZW8hvh&rank=1",
+      "title": "Harley Quinn by Amanda Conner and Jimmy Palmiotti Omnibus Volume 1",
+      "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1664431402i/34690771._SY75_.jpg",
+      "rating": 4.24,
+      "totalRatings": 111,
+      "publisher": "DC"
+    },
+    {
+      "key": "39208011",
+      "url": "https://www.goodreads.com/book/show/39208011-harley-quinn-by-amanda-conner-and-jimmy-palmiotti-omnibus-volume-2?from_search=true&from_srp=true&qid=ySaSXr8tyv&rank=1",
+      "title": "Harley Quinn by Amanda Conner and Jimmy Palmiotti Omnibus Volume 2",
+      "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1664431411i/39208011._SX50_.jpg",
+      "rating": 4.26,
+      "totalRatings": 43,
+      "publisher": "DC"
+    },
+    {
+      "key": "44493896",
+      "url": "https://www.goodreads.com/book/show/44493896-harley-quinn-by-amanda-conner-and-jimmy-palmiotti-omnibus-volume-3?from_search=true&from_srp=true&qid=46ReudZw2x&rank=1",
+      "title": "Harley Quinn by Amanda Conner and Jimmy Palmiotti Omnibus Volume 3",
+      "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566887665i/44493896._SY75_.jpg",
+      "rating": 4.17,
+      "totalRatings": 23,
+      "publisher": "DC"
+    },
+    {
+      "key": "10080823",
+      "url": "https://www.goodreads.com/book/show/10080823-the-new-teen-titans-omnibus-vol-1?from_search=true&from_srp=true&qid=rQ5BeUgyCR&rank=1",
+      "title": "The New Teen Titans Omnibus, Vol. 1",
+      "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333579922i/10080823._SY75_.jpg",
+      "rating": 4.31,
+      "totalRatings": 383,
+      "publisher": "DC"
+    },
+    {
+      "key": "12356086",
+      "url": "https://www.goodreads.com/book/show/12356086-the-new-teen-titans-omnibus-vol-2?from_search=true&from_srp=true&qid=q9cjon60X4&rank=1",
+      "title": "The New Teen Titans Omnibus, Vol. 2",
+      "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333579997i/12356086._SY75_.jpg",
+      "rating": 4.35,
+      "totalRatings": 187,
+      "publisher": "DC"
+    },
+    {
+      "key": "15798793",
+      "url": "https://www.goodreads.com/book/show/15798793-the-new-teen-titans-omnibus-vol-3?from_search=true&from_srp=true&qid=xetMXhmgvP&rank=1",
+      "title": "The New Teen Titans Omnibus, Vol. 3",
+      "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344618966i/15798793._SY75_.jpg",
+      "rating": 4,
+      "totalRatings": 64,
+      "publisher": "DC"
+    },
+    {
+      "key": "10080823",
+      "url": "https://www.goodreads.com/book/show/10080823-the-new-teen-titans-omnibus-vol-1?from_search=true&from_srp=true&qid=xQcxCk7F5v&rank=1",
+      "title": "The New Teen Titans Omnibus, Vol. 1",
+      "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333579922i/10080823._SY75_.jpg",
+      "rating": 4.31,
+      "totalRatings": 383,
+      "publisher": "DC"
+    },
+    {
+      "key": "10080823",
+      "url": "https://www.goodreads.com/book/show/10080823-the-new-teen-titans-omnibus-vol-1?from_search=true&from_srp=true&qid=197LmsPXDt&rank=1",
+      "title": "The New Teen Titans Omnibus, Vol. 1",
+      "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333579922i/10080823._SY75_.jpg",
+      "rating": 4.31,
+      "totalRatings": 383,
+      "publisher": "DC"
+    },
+    {
+      "key": "44493890",
+      "url": "https://www.goodreads.com/book/show/44493890-zero-hour?from_search=true&from_srp=true&qid=Kt3A4U39fU&rank=1",
+      "title": "Zero Hour: 25th Anniversary Omnibus",
+      "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1571786526l/44493890._SX50_SY75_.jpg",
+      "rating": 3.21,
+      "totalRatings": 61,
+      "publisher": "DC"
+    },
+    {
+      "key": "39208031",
+      "url": "https://www.goodreads.com/book/show/39208031-final-crisis-omnibus?from_search=true&from_srp=true&qid=dCbJtkv4gk&rank=1",
+      "title": "Final Crisis Omnibus",
+      "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1540296839i/39208031._SX50_.jpg",
+      "rating": 3.76,
+      "totalRatings": 191,
+      "publisher": "DC"
+    },
+    {
+      "key": "94510",
+      "url": "https://www.goodreads.com/book/show/94510.100_Bullets_Vol_1?from_search=true&from_srp=true&qid=LLDjcXc1h3&rank=1",
+      "title": "100 Bullets, Vol. 1: First Shot, Last Call",
+      "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327888942i/94510._SY75_.jpg",
+      "rating": 3.86,
+      "totalRatings": 16253,
+      "publisher": "DC"
+    },
+    {
+      "key": "94513",
+      "url": "https://www.goodreads.com/book/show/94513.100_Bullets_Vol_2?from_search=true&from_srp=true&qid=si3v98HhyZ&rank=1",
+      "title": "100 Bullets, Vol. 2: Split Second Chance",
+      "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328137992i/94513._SY75_.jpg",
+      "rating": 4.09,
+      "totalRatings": 7152,
+      "publisher": "DC"
+    },
+    {
+      "key": "219800848",
+      "url": "https://www.goodreads.com/book/show/219800848-john-constantine-hellblazer-vol-1?from_search=true&from_srp=true&qid=q32sXbbpdI&rank=1",
+      "title": "John Constantine, Hellblazer Vol. 1: Original Sins (Hellblazer (Graphic Novels))",
+      "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1727740492i/219800848._SY75_.jpg",
+      "rating": 4.2,
+      "totalRatings": 40,
       "publisher": "DC"
     }
   ]
