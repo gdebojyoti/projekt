@@ -1,7 +1,6 @@
 import { Metadata } from 'next'
 
 import Goodreads from '@/components/Goodreads'
-import TestComponent from '@/components/TestComponent'
 import getBooks from '@/utils/getBooks'
 
 const GoodreadsPage = () => {
@@ -13,9 +12,9 @@ const GoodreadsPage = () => {
 
   return (
     <div>
-      <h1>Top 100 books!</h1>
+      <h1>Top Omnibus edition books from Marvel & DC</h1>
+      <h2>Sorted according to ratings on GoodReads</h2>
 
-      <TestComponent />
       <Goodreads publisherTags={publisherTags} data={getBooks()} />
     </div>
   )
